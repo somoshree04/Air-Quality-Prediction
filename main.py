@@ -17,6 +17,7 @@ app.add_middleware(
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
+    
 )
 
 # Define input schema
@@ -36,3 +37,4 @@ def predict_air_quality(data: AirQualityInput):
     input_data = np.array([[data.PM2_5, data.PM10, data.NO2, data.CO, data.O3]])
     prediction = model.predict(input_data)[0]
     return {"AQI_Category": prediction}
+
