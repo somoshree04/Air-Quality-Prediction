@@ -1,0 +1,25 @@
+.result {
+  margin-top: 15px;
+  padding: 12px;
+  text-align: center;
+  font-size: 18px;
+  font-weight: bold;
+  border-radius: 6px;
+  display: none; /* hidden until prediction comes */
+}
+
+/* Colors for categories */
+.good {
+  background: #a8e6a2;
+  color: #2e7d32;
+}
+
+.moderate {
+  background: #fff59d;
+  color: #f57f17;
+}
+
+.unhealthy {
+  background: #ef9a9a;
+  color: #b71c1c;
+}
