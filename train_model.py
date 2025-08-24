@@ -13,6 +13,7 @@ y = df["AQI_Category"].values                  # Convert to numpy array
 # Split dataset
 X_train, X_test, y_train, y_test = train_test_split(
     X, y, test_size=0.2, random_state=42
+    
 )
 
 # Train Random Forest model
@@ -24,3 +25,4 @@ print("Model trained. Accuracy:", model.score(X_test, y_test))
 
 # Save model
 joblib.dump(model, "aqi_model.pkl")
+
