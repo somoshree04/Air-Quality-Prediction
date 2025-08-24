@@ -1,0 +1,7 @@
+PM2_5,PM10,NO2,CO,O3,AQI_Category
+30,50,20,0.5,25,Good
+80,150,60,1.2,40,Moderate
+120,200,90,2.5,60,Unhealthy
+55,90,40,0.8,20,Moderate
+20,40,15,0.3,15,Good
+150,250,120,3.0,80,Very Unhealthy
