@@ -5,6 +5,7 @@ async function predictAQI() {
     NO2: parseFloat(document.getElementById("no2").value),
     CO: parseFloat(document.getElementById("co").value),
     O3: parseFloat(document.getElementById("o3").value)
+    
   };
 
   const resultBox = document.getElementById("result");
@@ -41,3 +42,4 @@ async function predictAQI() {
     resultBox.innerHTML = "Error: " + error.message;
   }
 }
+
