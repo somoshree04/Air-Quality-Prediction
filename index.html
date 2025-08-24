@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Air Quality Prediction</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h2>Air Quality Prediction</h2>
+    <label>PM2.5</label>
+    <input type="number" id="pm25" step="0.1">
+    
+    <label>PM10</label>
+    <input type="number" id="pm10" step="0.1">
+    
+    <label>NO2</label>
+    <input type="number" id="no2" step="0.1">
+    
+    <label>CO</label>
+    <input type="number" id="co" step="0.1">
+    
+    <label>O3</label>
+    <input type="number" id="o3" step="0.1">
+    
+    <button onclick="predictAQI()">Predict AQI</button>
+    
+    <div id="result" class="result"></div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
+
